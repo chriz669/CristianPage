@@ -1,5 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import { Button } from 'react-bootstrap';
+import Holder from 'holderjs';
+
 
 function UncontrolledExample() {
   return (
@@ -7,7 +9,7 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          src="holder.js/1600x500?text=First slide&bg=373940"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -21,7 +23,7 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          src="holder.js/1600x500?text=Second slide&bg=282c34"
           alt="Second slide"
         />
 
@@ -36,7 +38,7 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          src="holder.js/1600x500?text=Third slide&bg=20232a"
           alt="Third slide"
         />
 
