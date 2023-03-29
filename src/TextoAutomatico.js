@@ -5,7 +5,7 @@ function TextoAutomatico() {
   const velocidad = 100;
 
   useEffect(() => {
-    const textoCompleto = "Biienvenido Esteban de los angeles a mi pagina xd";
+    const textoCompleto = "Biienvenido Luwu de los angeles a mi pagina xd";
     let i = 0;
     let intervalo = setInterval(() => {
       if (i < textoCompleto.length) {
